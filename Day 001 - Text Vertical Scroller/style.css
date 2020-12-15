@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root{
+    --primary-color:  #8a2be2;
+    --second-color: #230044;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #070707;
+    color: white;
+}
+.scroller-container{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.scroller-box{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.scroller-display{
+    display: block;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.scroller-text-output{
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    font-size: 2em;
+    margin-bottom: 50px;
+    top: 0px;
+}
+
+.scroller-input-text{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top:20px;
+    font-size: 2em;
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    outline: none;
+    border: none;
+
+}
+.scroller-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.btn-add, .btn-start{
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.btn-add{
+    width: 50%;
+    height: 50px;
+}
+
+.btn-start{
+    width: 50%;
+    height: 50px;
+
+}
+
+.scroller-set-time{
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.scroller-time p {
+    font-size: 2em;
+    color: var(--primary-color);
+}
