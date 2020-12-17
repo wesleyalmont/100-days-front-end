@@ -5,4 +5,5 @@
 <ol>
   <li>Day 01 - Text Vertical Scroller</li>
   <li>Day 02 - Circle Animation</li>
+  <li>Day 03 - Wall-clock</li>
  </ol>
