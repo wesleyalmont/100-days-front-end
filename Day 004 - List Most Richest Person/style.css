@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family    : 'Poppins', sans-serif;
+    display        : flex;
+    min-height     : 100vh;
+    justify-content: center;
+    align-items    : center;
+    background     : #f5f3f4;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.person-grid {
+    display              : grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    margin-top           : 2px;
+    border-radius        : 10px;
+    background           : #fbfefb;
+    box-shadow           : 5px 5px rgb(255, 255, 255, 0.1);
+}
+
+.person-title {
+    text-align   : center;
+    margin       : 10px;
+    background   : #4f5d75;
+    color        : #fff;
+    border-radius: 25px;
+}
+
+.person {
+    display    : flex;
+    align-items: center;
+    font-size  : 1.1rem;
+    padding    : 10px 10px 10px 20px;
+    text-align : center;
+}
+
+.name {
+    text-align: left;
+}
+
+.title {
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        max-width:600px;
+    }
+    .person-grid {
+        display              : grid;
+        grid-template-columns: 3fr 1fr 2fr;
+    }
+    .person-title{
+        padding: 1.0rem;
+    }
+    .person{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:425px){
+    .container{
+        max-width:300px;
+    }
+    .person-grid {
+        display              : grid;
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+    .person-title{
+        padding: 0.8rem;
+    }
+    .person{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:320px){
+    .container{
+        max-width:250px;
+    }
+    .person-grid {
+        display              : grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .person-title{
+        padding: 0.5rem;
+    }
+    .person{
+        font-size: 0.5rem;
+    }
+}
