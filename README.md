@@ -6,4 +6,7 @@
   <li>Day 01 - Text Vertical Scroller</li>
   <li>Day 02 - Circle Animation</li>
   <li>Day 03 - Wall-clock</li>
+  <li>Day 04 - List Most RIchest Person</li>
+  <li>Day 05 - Currency Conversion </li>
+
  </ol>

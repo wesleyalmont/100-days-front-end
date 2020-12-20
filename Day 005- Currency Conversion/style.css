@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-conv{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#fdollar, #freal{
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid rgba(2, 0, 0, 0.096);
+    border-radius: 10px;
+    
+}
+
+#fdollar:focus, #freal:focus {
+    box-shadow:0px 0px 1px 2px #0070d8;
+    outline: none;
+}
+
+#fdollar{
+    background-image: url(images/us.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    padding-left: 60px;
+}
+
+#freal{
+    background-image: url(images/brazil.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    padding-left: 60px;
+}
+
+#f-btn{
+    margin-top: 50px;
+    background-color: #0084ff;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+}
+
+#f-btn:hover{
+    background-color: #0070d8;
+    transition: 2s;
+}
